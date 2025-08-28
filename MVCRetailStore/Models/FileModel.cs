@@ -35,12 +35,12 @@ Available at: <https://youtu.be/A-mVVL88oEg?si=sUYFyrY2wQc6Lny0>
 [Accessed 26 August 2025].
 
 /*
-Bootstrap. 2023. Bootstrap 5 Documentation.
+Bootstrap. 2023. Bootstrap 5 Documentation.(Version 2.0) [Source code].
 Available at:
-<https: //getbootstrap.com/docs/5.3/getting-started/introduction />
+<https: //getbootstrap.com/docs/5.3/getting-started/introduction>
 [Accessed 28 August 2025].
 
-Stack Overflow. 2015. Calculate price based on input number (quantity) change.  
+Stack Overflow. 2015. Calculate price based on input number (quantity) change.(Version 2.0) [Source code].  
 Available at: <https://stackoverflow.com/questions/27764823/calculate-price-based-on-input-number-quantity-change>  
 [Accessed 28 August 2025].
 
