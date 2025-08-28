@@ -133,7 +133,7 @@ Available at: <https://youtu.be/VbZ3Pi63yEc?si=LQjhLWhylEcbOl7z>
 [Accessed 28 August 2025].
 
 /*
-Stack Overflow. 2015. MVC - Data Calculations Best Practice - ViewModel vs. Controller. [online]
+Stack Overflow. 2015. MVC - Data Calculations Best Practice - ViewModel vs. Controller.(Version 2.0) [Source code]
 Available at: <https://stackoverflow.com/questions/31730642/mvc-data-calculations-best-practice-viewmodel-vs-controller>
 [Accessed 28 August 2025].
 
