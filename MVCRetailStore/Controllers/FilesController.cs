@@ -6,7 +6,7 @@ namespace MVCRetailStore.Controllers
 {
 
     //Reference: Reece Waving. 2025. CLDV6212 ASP.NET MVC & Azure Series - Part 4: Mastering Azure File Share!
-    // According to Reece Waving (2025), file-related actions in controllers can call service methods for uploading, listing, and downloading files.
+    // According to Reece Waving (2025), file related actions in controllers can call service methods for uploading, listing, and downloading files.
     // I used this reftence in FilesController to understand the structure and methods needed to manage files in Azure File Share.
 
     public class FilesController : Controller
