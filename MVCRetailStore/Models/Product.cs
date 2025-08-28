@@ -25,7 +25,7 @@ namespace MVCRetailStore.Models
     }
 }
 /*
-Bootstrap. 2023. Bootstrap 5 Documentation.
+Bootstrap. 2023. Bootstrap 5 Documentation.(Version 2.0) [Source code].
 Available at:
 <https: //getbootstrap.com/docs/5.3/getting-started/introduction />
 [Accessed 28 August 2025].
