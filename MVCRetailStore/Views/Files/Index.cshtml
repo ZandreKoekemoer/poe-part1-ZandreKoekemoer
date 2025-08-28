@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MVCRetailStore.Models.FileModel>
+@{
+    ViewData["Title"] = "File Uploads";
+}
+
+<h1>Contracts</h1>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info">@ViewBag.Message</div>
+}
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data" class="mb-3">
+    @Html.AntiForgeryToken()
+    <div class="input-group">
+        <input type="file" name="file" class="form-control" />
+        <button class="btn btn-primary" type="submit">Upload</button>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>File Name</th>
+            <th>Size</th>
+            <th>Last Modified</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <td>@f.Name</td>
+                <td>@f.DisplaySize</td>
+                <td>@f.LastModified</td>
+                <td>
+                    <a class="btn btn-sm btn-secondary" asp-action="DownloadFile" asp-route-fileName="@f.Name">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
